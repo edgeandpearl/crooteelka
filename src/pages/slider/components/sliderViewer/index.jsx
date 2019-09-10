@@ -1,9 +1,12 @@
 import React from 'react';
-import classes from './slider.module.scss';
+import classes from './sliderViewer.module.scss';
+import Square from "./square";
 
-const Slider = () => {
+const Slider = ({count = 0}) => {
     return (
-        <div className={classes.Slider}>Я слайдер!</div>
+        <div className={classes.Slider}>
+
+        </div>
     )
 };
 
